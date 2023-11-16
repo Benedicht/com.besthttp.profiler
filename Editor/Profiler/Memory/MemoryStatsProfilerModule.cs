@@ -10,9 +10,9 @@ namespace BestHTTP.Editor.Profiler.Network
     {
         static readonly ProfilerCounterDescriptor[] k_Counters =
         {
-            new(MemoryStats.BorrowedName, MemoryStats.Category),
-            new(MemoryStats.PooledName, MemoryStats.Category),
-            new(MemoryStats.ArrayAllocationsName, MemoryStats.Category)
+            new ProfilerCounterDescriptor(MemoryStats.BorrowedName, MemoryStats.Category),
+            new ProfilerCounterDescriptor(MemoryStats.PooledName, MemoryStats.Category),
+            new ProfilerCounterDescriptor(MemoryStats.ArrayAllocationsName, MemoryStats.Category)
         };
 
         public MemoryStatsProfilerModule() : base(k_Counters)

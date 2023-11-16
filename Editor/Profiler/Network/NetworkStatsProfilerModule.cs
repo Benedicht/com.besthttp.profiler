@@ -10,12 +10,12 @@ namespace BestHTTP.Editor.Profiler.Network
     {
         static readonly ProfilerCounterDescriptor[] k_Counters =
         {
-            new(NetworkStats.SentSinceLastFrameName, NetworkStats.Category),
-            new(NetworkStats.SentTotalName, NetworkStats.Category),
-            new(NetworkStats.ReceivedSinceLastFrameName, NetworkStats.Category),
-            new(NetworkStats.ReceivedTotalName, NetworkStats.Category),
-            new(NetworkStats.OpenConnectionsName, NetworkStats.Category),
-            new(NetworkStats.TotalConnectionsName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.SentSinceLastFrameName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.SentTotalName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.ReceivedSinceLastFrameName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.ReceivedTotalName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.OpenConnectionsName, NetworkStats.Category),
+            new ProfilerCounterDescriptor(NetworkStats.TotalConnectionsName, NetworkStats.Category),
         };
 
         public NetworkStatsProfilerModule() : base(k_Counters)
