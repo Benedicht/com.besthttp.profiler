@@ -6,7 +6,7 @@ View internal statistics related to the Best HTTP/2 plugin, integrated into the 
 
 Steps to install and setup:
 
-0. The profiler addon has a dependency on the [com.unity.profiling.core](https://docs.unity3d.com/Packages/com.unity.profiling.core@1.0/manual/index.html) that **requires Unity 2020.1 or newer** installations.
+0. The profiler addon has a dependency on the [com.unity.profiling.core](https://docs.unity3d.com/Packages/com.unity.profiling.core@1.0/manual/index.html) that **requires Unity 2021.2 or newer** installations.
 1. Make sure that the [Best HTTP/2](https://assetstore.unity.com/packages/tools/network/best-http-2-155981?aid=1101lfX8E) package is already installed.
 
 2. Using the [Package Manager window](https://docs.unity3d.com/Manual/upm-ui.html) install the package from the following git source: [https://github.com/Benedicht/com.besthttp.profiler.git](https://github.com/Benedicht/com.besthttp.profiler.git):
